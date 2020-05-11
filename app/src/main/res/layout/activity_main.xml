@@ -50,7 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:src="@drawable/national"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/image_description" />
 
         <Button
             android:id="@+id/touchdown_button"
@@ -90,6 +91,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/field_goal_button" />
+
+        <Button
+            android:id="@+id/extra_point_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:onClick="onePoint"
+            android:text="@string/extra"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/safety_button" />
 
     </LinearLayout>
 
@@ -136,7 +150,8 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:src="@drawable/national"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/image_description" />
 
         <Button
             android:id="@+id/touchdown_button_b"
@@ -177,6 +192,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/field_goal_button_b" />
+
+        <Button
+            android:id="@+id/extra_point_button_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:onClick="onePoint_B"
+            android:text="@string/extra"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/safety_button_b" />
 
     </LinearLayout>
 

@@ -37,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
     }
 
+    public void onePoint(View view){
+
+        scoreTeamA = scoreTeamA + 1;
+        displayForTeamA(scoreTeamA);
+    }
+
     /**
      * Methods for Team B.
      */
@@ -53,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void twoPoint_B(View view) {
         scoreTeamB = scoreTeamB + 2;
+        displayForTeamB(scoreTeamB);
+    }
+
+    public void onePoint_B(View view){
+
+        scoreTeamB = scoreTeamB + 1;
         displayForTeamB(scoreTeamB);
     }
 

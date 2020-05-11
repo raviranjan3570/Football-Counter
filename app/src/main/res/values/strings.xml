@@ -7,4 +7,6 @@
     <string name="safety">Safety</string>
     <string name="team_b_text">Team B</string>
     <string name="reset">Reset</string>
+    <string name="extra">Extra</string>
+    <string name="image_description">image of football player</string>
 </resources>
